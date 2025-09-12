@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <div class="container">
 
     
@@ -14,9 +15,14 @@
       <h2>CSS Layout 1</h2>
       <div class="layout1">
         <div class="header light-brown"></div>
-        <div class="sidebar-left dark-brown"></div>
-        <div class="content medium-brown"></div>
-        <div class="footer light-brown"></div>
+        <div class="body">
+          <div class="sidebar dark-brown"></div>
+          <div class="content">
+            <div class="subheader medium-brown"></div>
+            <div class="main light-brown"></div>
+            <div class="footer dark-brown"></div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -24,11 +30,15 @@
     <section class="frame">
       <h2>CSS Layout 2</h2>
       <div class="layout2">
-        <div class="header medium-brown"></div>
-        <div class="left light-brown"></div>
-        <div class="middle dark-brown"></div>
-        <div class="right medium-brown"></div>
-        <div class="footer light-brown"></div>
+        <div class="left-side">
+          <div class="header medium-brown"></div>
+          <div class="columns">
+            <div class="col light-brown"></div>
+            <div class="col dark-brown"></div>
+          </div>
+          <div class="footer light-brown"></div>
+        </div>
+        <div class="sidebar medium-brown"></div>
       </div>
     </section>
 
@@ -36,11 +46,19 @@
     <section class="frame">
       <h2>CSS Layout 3</h2>
       <div class="layout3">
-        <div class="header medium-brown"></div>
-        <div class="col1 light-brown"></div>
-        <div class="col2 dark-brown"></div>
-        <div class="col3 medium-brown"></div>
-        <div class="footer light-brown"></div>
+        <div class="top">
+          <div class="circle dark-brown"></div>
+          <div class="banner medium-brown"></div>
+        </div>
+        <div class="thinbar light-brown"></div>
+        <div class="center">
+          <div class="left medium-brown"></div>
+          <div class="right light-brown"></div>
+        </div>
+        <div class="bottom">
+          <div class="foot dark-brown"></div>
+          <div class="circle medium-brown"></div>
+        </div>
       </div>
     </section>
 
