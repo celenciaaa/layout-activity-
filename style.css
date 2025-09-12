@@ -1,7 +1,7 @@
 :root {
   --gutter: 8px;
 
-  
+  /* Brown shades */
   --light-brown: #d2b48c;
   --medium-brown: #a0522d;
   --dark-brown: #654321;
@@ -47,7 +47,7 @@ h2 {
 .medium-brown { background: var(--medium-brown); }
 .dark-brown { background: var(--dark-brown); }
 
-
+/* ========= LAYOUT 1 ========= */
 .layout1 {
   display: grid;
   grid-template-columns: 60px 1fr;
@@ -74,10 +74,10 @@ h2 {
   height: 35px;
 }
 
-
+/* ========= LAYOUT 2 ========= */
 .layout2 {
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr; 
+  grid-template-columns: 2fr 2fr 1fr; /* left, middle, sidebar */
   grid-template-rows: 35px 1fr 35px;
   gap: var(--gutter);
   height: 100%;
@@ -109,7 +109,7 @@ h2 {
   height: 35px;
 }
 
-
+/* ========= LAYOUT 3 ========= */
 .layout3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
