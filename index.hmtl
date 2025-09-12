@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSS Layouts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    
+    <section class="frame">
+      <h2>CSS Layout 1</h2>
+      <div class="layout1">
+        <div class="header light-brown"></div>
+        <div class="sidebar-left dark-brown"></div>
+        <div class="content medium-brown"></div>
+        <div class="footer light-brown"></div>
+      </div>
+    </section>
+
+    
+    <section class="frame">
+      <h2>CSS Layout 2</h2>
+      <div class="layout2">
+        <div class="header medium-brown"></div>
+        <div class="left light-brown"></div>
+        <div class="middle dark-brown"></div>
+        <div class="right medium-brown"></div>
+        <div class="footer light-brown"></div>
+      </div>
+    </section>
+
+    
+    <section class="frame">
+      <h2>CSS Layout 3</h2>
+      <div class="layout3">
+        <div class="header medium-brown"></div>
+        <div class="col1 light-brown"></div>
+        <div class="col2 dark-brown"></div>
+        <div class="col3 medium-brown"></div>
+        <div class="footer light-brown"></div>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
